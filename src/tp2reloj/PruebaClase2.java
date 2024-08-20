@@ -9,5 +9,6 @@ package tp2reloj;
  * 
  */
 public class PruebaClase2 {
-    
+    private int numero;
+    private boolean  algo;
 }
