@@ -6,8 +6,9 @@ package tp2reloj;
 
 /**
  *
- * @author Equipo
+ * 
  */
-public class prueba {
+public class Persona {
+    
     
 }

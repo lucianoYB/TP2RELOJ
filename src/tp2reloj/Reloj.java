@@ -6,9 +6,8 @@ package tp2reloj;
 
 /**
  *
- * 
+ * @author Matias
  */
-public class PruebaClase2 {
-    private int numero;
-    private boolean  algo;
+public class Reloj {
+    
 }

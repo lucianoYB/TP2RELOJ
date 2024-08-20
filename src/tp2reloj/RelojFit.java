@@ -6,8 +6,8 @@ package tp2reloj;
 
 /**
  *
- * @author Matias
+ * @author Equipo
  */
-public class Prueba3 {
+public class RelojFit extends Reloj{
     
 }
