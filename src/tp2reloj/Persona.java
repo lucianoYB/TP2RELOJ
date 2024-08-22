@@ -4,11 +4,12 @@
  */
 package tp2reloj;
 
-/**
- *
- * 
- */
+
 public class Persona {
+  
+        
+    }
     
     
-}
+    
+
