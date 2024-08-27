@@ -60,7 +60,7 @@ public class Reloj {
     public void incrementarDia (int dias ){
         dia=dia.plusDays(dias);
     }
-    public void invrementarHora ( int horas){
+    public void incrementarHora ( int horas){
         hora = hora.plusHours(horas);
     }
     public void limpiarPantalla(){
