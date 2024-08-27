@@ -4,17 +4,31 @@
  */
 package tp2reloj;
 
-/**
- *
- * @author Equipo
- */
-public class TP2RELOJ {
+import java.time.LocalDate;
+import java.time.LocalTime;
 
-    /**
-     * @param args the command line arguments
-     */
+public class TP2RELOJ {
+    
+    
+
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Reloj smartfit = new Reloj(LocalDate.now(), LocalTime.now(), "Enzo" , 12345);
+       
+        Persona persona = new Persona ("Beto" , "Alonso" , 22 , 1.70 , smartfit);
+        
+        persona.decirHora();
+        
+        smartfit.incrementarDia(4);
+        
+        smartfit.incrementarHora(8);
+        
+        persona.decirHora();
+        
+        RelojFit watchfit = new RelojFit(LocalDate.now() , LocalTime.now() , "Blanco" , 12345);
+        
+        watchfit.cuentaPasos(8,4);
     }
     
 }
