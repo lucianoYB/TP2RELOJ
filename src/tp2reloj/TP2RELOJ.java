@@ -22,7 +22,7 @@ public class TP2RELOJ {
         
         smartfit.incrementarDia(4);
         
-        smartfit.incrementarHora(8);
+        smartfit.incrementarHora(1);
         
         persona.decirHora();
         

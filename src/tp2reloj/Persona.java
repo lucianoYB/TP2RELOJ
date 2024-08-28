@@ -54,7 +54,8 @@ public class Persona {
     }
     
     public void decirHora(){
-        System.out.println("La hora es : " +reloj.getHora());
+        System.out.println("La hora es : " +reloj.getHora().getHour() +":"+reloj.getHora().getMinute()+":"+reloj.getHora().getSecond());
+      
     }
      
     public void hablar(){
